@@ -1,0 +1,81 @@
+/* Body Styles */
+
+body {
+  font-size: 18px;
+  color: #000;
+}
+
+/*---------------------------------------*/
+
+/* Main Navigation */
+
+@media screen and (max-width: 767px) {
+     .navbar-inverse>.container {
+         padding-bottom: 0px;
+         min-height: 100%;
+     }
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffff00;
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow:
+         0px 2px 0 #000,
+         0px 3px 0 #000,
+         0px 0px 0 #000,
+         1px 0px 0 #000,
+         1px 3px 0px #000;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+     color: #ffff00;
+     font-size: 16px;
+     font-weight: 700;
+     text-shadow:
+         0px 2px 0 #000,
+         0px 3px 0 #000,
+         0px 0px 0 #000,
+         1px 0px 0 #000,
+         1px 3px 0px #000;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #eee;
+}
+/*---------------------------------------*/
+
+
+
+/*---------------------------------------*/
+/* Buttons */
+
+.btn-default {
+  color: #ffff00;
+  background-color: #000;
+  font-weight: 600;
+  font-size: 18px;
+
+}
+/*---------------------------------------*/
+
+
+
+/*---------------------------------------*/
+/* Footer Contact Info Highlight */
+
+.footer {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #000;
+    padding: 30px;
+    margin-bottom: 0;
+}
+
+.footer a {
+  color: #ffff00;
+}
+
+/*---------------------------------------*/
