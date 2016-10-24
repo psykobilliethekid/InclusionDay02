@@ -5,6 +5,10 @@ body {
   color: #000;
 }
 
+hr {
+    border-top: 3px solid #eee;
+}
+
 /*---------------------------------------*/
 
 /* Main Navigation */
